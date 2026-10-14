@@ -38,7 +38,7 @@ R² 呈倒 U 型趨勢：單層卷積能與時間感知機制良好搭配，過�
 
 - Python、TensorFlow (Keras)、scikit-learn (MinMaxScaler)
 - 資料前處理：Min-Max 正規化、滑動視窗 (視窗長度 3 日)
-- 資料來源：Kaggle 開源資料集 (prices-split-adjusted)，請自行下載
+- 資料來源：Kaggle 開源資料集 https://www.kaggle.com/code/benjibb/lstm-stock-prediction-20170507/input?select=prices-split-adjusted.csv
 
 #### 備註
 
