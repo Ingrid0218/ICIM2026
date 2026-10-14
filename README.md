@@ -39,13 +39,13 @@ R² 呈倒 U 型趨勢：單層卷積能與時間感知機制良好搭配，過�
 - Python、TensorFlow (Keras)、scikit-learn (MinMaxScaler)
 - 資料前處理：Min-Max 正規化、滑動視窗 (視窗長度 3 日)
 
-#### 資料來源
+#### 資料與參考來源
 
+- 參考來源：LSTM_Stock_prediction-20170507 (benjibb)
+  https://www.kaggle.com/code/benjibb/lstm-stock-prediction-20170507
 - 資料集：Kaggle「New York Stock Exchange」(dgawlik) 中的 `prices-split-adjusted.csv`
   https://www.kaggle.com/datasets/dgawlik/nyse
 - 本研究擷取資料集中 Alphabet Inc. (GOOG)2010/01/04–2016/12/30 的交易資料
-- 參考LSTM_Stock_prediction-20170507 (benjibb)
-  https://www.kaggle.com/code/benjibb/lstm-stock-prediction-20170507
 - 資料檔未包含於本 repo，請自行至 Kaggle 下載
 
 #### 備註
