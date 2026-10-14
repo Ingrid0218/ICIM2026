@@ -1,11 +1,11 @@
 ### 應用不同注意力機制之混合深度學習模型於股價預測準確度之探討：以 Google 股價為例
 
-第 37 屆國際資訊管理學術研討會(ICIM 2026)口頭發表論文之相關程式碼。
-本人擔任通訊作者與發表人，**負責Time Aware Attention機制的實作**，四支基準模型為團隊共同程式。
+第 37 屆國際資訊管理學術研討會 (ICIM 2026) 口頭發表論文之相關程式碼。
+本人擔任通訊作者與發表人，**負責 Time Aware Attention 機制的實作**，四支基準模型為團隊共同程式。
 
 #### 研究簡介
 
-以 Alphabet Inc.（GOOG）2010–2016 年歷史交易資料（Open、High、Low、Close、Volume），
+以 Alphabet Inc. (GOOG)2010–2016 年歷史交易資料 (Open、High、Low、Close、Volume)，
 預測次一交易日收盤價。研究分兩階段：
 
 1. **基準模型比較**：CNN、RNN、LSTM、GRU，選出 RNN 作為後續基底
@@ -23,7 +23,7 @@
 
 引入時間衰減函數，使越接近預測日的交易資料獲得越高權重，反映股市近期資訊影響較大的特性。
 
-#### 實驗結果（Time Aware Attention）
+#### 實驗結果 (Time Aware Attention)
 
 | 模型 | RMSE | MAE | MAPE | R² |
 |---|---|---|---|---|
@@ -36,9 +36,9 @@ R² 呈倒 U 型趨勢：單層卷積能與時間感知機制良好搭配，過�
 
 #### 技術與資料
 
-- Python、TensorFlow（Keras）、scikit-learn（MinMaxScaler）
-- 資料前處理：Min-Max 正規化、滑動視窗（視窗長度 3 日）
-- 資料來源：Kaggle 開源資料集（prices-split-adjusted），請自行下載
+- Python、TensorFlow (Keras)、scikit-learn (MinMaxScaler)
+- 資料前處理：Min-Max 正規化、滑動視窗 (視窗長度 3 日)
+- 資料來源：Kaggle 開源資料集 (prices-split-adjusted)，請自行下載
 
 #### 備註
 
