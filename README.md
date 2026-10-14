@@ -17,7 +17,7 @@
 |---|---|
 | `basecnn.py`、`basernn.py`、`baselstm.py`、`basegru.py` | 第一階段基準模型 |
 | `TimeAwareAttention_RNN.py` | RNN + Time Aware Attention |
-| `TimeAwareAttention_RNN_CNN.py` | CNN+RNN（1–3 層）+ Time Aware Attention |
+| `TimeAwareAttention_RNN_CNN.py` | 1–3 Layer CNN+RNN + Time Aware Attention |
 
 #### Time Aware Attention 實作重點
 
